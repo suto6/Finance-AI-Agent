@@ -1,0 +1,13 @@
+prefix=/home/sutapa/Desktop/Agentic_AI/phidata/1st_prac/venv
+exec_prefix=/home/sutapa/Desktop/Agentic_AI/phidata/1st_prac/venv
+libdir=/home/sutapa/Desktop/Agentic_AI/phidata/1st_prac/venv/lib
+sharedlibdir=/home/sutapa/Desktop/Agentic_AI/phidata/1st_prac/venv/lib
+includedir=/home/sutapa/Desktop/Agentic_AI/phidata/1st_prac/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

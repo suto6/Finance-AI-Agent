@@ -1,0 +1,11 @@
+prefix=/home/sutapa/Desktop/Agentic_AI/phidata/1st_prac/venv
+exec_prefix=/home/sutapa/Desktop/Agentic_AI/phidata/1st_prac/venv
+libdir=/home/sutapa/Desktop/Agentic_AI/phidata/1st_prac/venv/lib
+includedir=/home/sutapa/Desktop/Agentic_AI/phidata/1st_prac/venv/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid
